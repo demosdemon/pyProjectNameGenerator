@@ -1,5 +1,8 @@
+# coding=utf-8
+
 from .adjectives import ADJECTIVES
 from .nouns import NOUNS
 
-def generate(words=2, number=False, alliterative: False):
+
+def generate(words=2, number=False, alliterative=False):
     pass
