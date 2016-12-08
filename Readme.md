@@ -11,7 +11,7 @@ Useful for object names, temp folders, passwords, project names, unique ids, etc
 ## Install
 
 ## Quick Start
-```
+```python
 >>> from project_name_generator import generate
 >>> generate(words=3, number=True, alliterative='c')
 {'raw': ['cluttered', 'condemned', 'corn', '4913'], 'spaced': 'cluttered condemned corn 4913', 'dashed': 'cluttered-condemned-corn-4913'}
