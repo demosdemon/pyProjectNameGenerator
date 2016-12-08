@@ -14,10 +14,10 @@ def generate(words=2, number=False, alliterative=False):
     raw = []
 
     for _ in range(words - 1):
-        word = _random_word(ADJECTIVES)
+        word = _random_word(ADJECTIVES, alliterative)
         raw.append(word)
 
-    word = _random_word(NOUNS)
+    word = _random_word(NOUNS, alliterative)
     raw.append(word)
 
     if number:
